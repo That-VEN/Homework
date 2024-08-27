@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+header{
+    flex: 1;
+    background: orange;
+}
+.main-container{
+    display: flex;
+    flex: 5;
+}
+aside{
+    flex: 1;
+    background: turquoise;
+}
+.main{
+    display: flex;
+    flex: 5;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: row-reverse;
+   
+}
+.box{
+    width: 30%;
+    height: 40vh;
+    background: #c2bbbb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: skew(20deg);
+
+
+}
